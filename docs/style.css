@@ -47,6 +47,16 @@ body{
         border-radius: 15px;
     }
 
+    img {
+        border: dashed 2px black;
+        width: 200px;
+        height: auto;
+        max-width: 200px;
+        min-width: 120px;
+        margin-bottom: 10px;
+        margin-right: 2mm;
+      }
+
     section {
         margin-top: 10px;
         margin-bottom: 15px;
@@ -69,6 +79,10 @@ body{
         padding: 10px 15px 10px 15px;
         border: 1px solid black;
         border-radius: 5px;
+    }
+
+    .inline{
+        display: inline;
     }
 
     button:hover{
@@ -150,6 +164,7 @@ body{
         gap: 1em;
         margin: 10px;
     }
+
 
 
 
