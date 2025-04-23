@@ -1,1 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root{
+    --main-color:
+}
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: var(--main-color, #d9d618) /* fallback */
+}
+
+    h1{
+        color: blue;
+    }
+    
+    h2{
+        color: hsl(42, 85%, 55%);
+    }
+    
+    h3{
+        color: rgba(0, 100, 255, 0.5);
+        text-align: center;
+    }
+
+    p{
+        margin: left 3em;
+        font-size: 1.5rem;
+    }
+
+    nav ul li a{
+        color: white;
+        font-weight: bold;
+    }
+
+    form{
+        padding: 10pt;
+        background-color: #f9f9f9;
+        margin: auto;
+        width: 60%;
+        border-style: solid;
+        border-color: #ccc;
+        border-width: 2px;
+        border-radius: 15px;
+    }
+
+    section {
+        margin-top: 10px;
+        margin-bottom: 15px;
+        margin-left: auto;
+        margin-right: auto;
+       
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-style: solid;
+        border-width: 2pt;
+        border-color: rgb(150, 175, 250);
+        border-radius: 10px;
+     }
+
+     
+     footer {
+        margin: 10px 20px 10px 20px;
+        padding: 10px 15px 10px 15px;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+
+    button:hover{
+        color: black;
+        cursor: pointer;
+        background-color: #a9a9f9;
+    }
+
+
+    
+
+    
 
