@@ -94,7 +94,39 @@ body{
         body{
             padding: 1em;
         }
-}
+    }
+
+    nav{
+        position: relative;
+    }
+
+    #topics {
+        text-decoration: none; }
+
+    h2,h3 {margin-top: 2rem;}
+
+    span.inline-text {background-color: darkblue;}
+
+    h2 ~ p {
+        color: turquoise
+    }
+
+    h2 + p {
+        font-size: 1.8em;
+    }
+
+    div p{
+        font-style: italic;
+    }
+
+    h1,h2 {
+        font-weight: light;
+    }
+
+    
+
+
+    
 
 
     
