@@ -31,6 +31,10 @@ body{
         color: white;
         font-weight: bold;
     }
+    
+    nav ul li a:hover{
+        text-decoration: underline;
+    }
 
     form{
         padding: 10pt;
@@ -76,6 +80,15 @@ body{
     @media (min-width: 770px){ /* for laptop screens */
         :root{
             --max-width: 8000x
+        }
+        body{
+        font-size: 0.9rem;
+        }
+        .flex-container{
+            flex-direction: column;
+        }
+        .grid-container{
+            grid-template-columns: 1fr;
         }
     }
 
@@ -123,7 +136,23 @@ body{
         font-weight: light;
     }
 
-    
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1em;
+        margin: 10px; 
+    }
+
+    .flex{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 1em;
+        margin: 10px;
+    }
+
+
+
 
 
     
